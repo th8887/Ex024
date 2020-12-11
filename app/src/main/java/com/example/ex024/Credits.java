@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 /**
  * @author Tahel Hazan <th8887@bs.amalnet.k12.il>
- * @version 1.1.4
+ * @version 1.1.5
  * @since 09.12.2020  The credit page shows the author
  * and ways to contact him in case something doesn't work.
  */
