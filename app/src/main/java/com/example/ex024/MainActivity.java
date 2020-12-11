@@ -62,15 +62,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Btnp.
-     *
-     * @param item the item Sends a Toast to let the user know he is in the current page             he chose from the OptionMenu.
-     */
-    public void btnp(MenuItem item) {
-        Toast.makeText(this, "You are already here :)", Toast.LENGTH_SHORT).show();
-    }
-
-    /**
      * exits the app and saves the data.
      *
      * @param view stm- Short Term Memory.
@@ -85,6 +76,15 @@ public class MainActivity extends AppCompatActivity {
         finish();
     }
 
+    /**
+     * Btnp.
+     *
+     * @param item the item Sends a Toast to let the user know he is in the current page
+     *             he chose from the OptionMenu.
+     */
+    public void btnp(MenuItem item) {
+        Toast.makeText(this, "You are already here :)", Toast.LENGTH_SHORT).show();
+    }
     /**
      * Cred.
      *
